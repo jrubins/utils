@@ -1,0 +1,14 @@
+# Builds.
+lib
+
+# Computer specific files.
+.DS_Store
+
+# Dependencies.
+node_modules
+
+# Logs
+yarn-error.log
+
+# NPM
+.npmrc
