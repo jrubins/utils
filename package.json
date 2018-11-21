@@ -10,7 +10,8 @@
   ],
   "main": "lib/index.js",
   "scripts": {
-    "build": "rm -rf lib && babel src --out-dir lib --ignore __tests__"
+    "build": "rm -rf lib && babel src --out-dir lib --ignore __tests__",
+    "prepublishOnly": "yarn build"
   },
   "lint-staged": {
     "*.{js,jsx}": [
